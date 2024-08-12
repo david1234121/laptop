@@ -53,3 +53,18 @@ export class ProfilePhoto { }
   ...,
 })
 export class UserProfile { }
+{"strategies": [{"category": "Climate Action", "description": "Reducing greenhouse gas emissions and mitigating climate change.", "examples": ["Transitioning to renewable energy sources (solar, wind, geothermal)", "Improving energy efficiency in buildings and transportation", "Protecting and restoring forests, which absorb carbon dioxide", "Supporting policies that promote climate action"]}, {"category": "Pollution Reduction", "description": "Minimizing air, water, and soil pollution.", "examples": ["Reducing emissions from factories and vehicles", "Improving waste management and recycling practices", "Protecting water resources from contamination", "Promoting sustainable agriculture and forestry practices"]}, {"category": "Biodiversity Conservation", "description": "Protecting and restoring biodiversity, which is essential for a healthy planet.", "examples": ["Creating and managing protected areas for endangered species", "Promoting sustainable land use practices", "Reducing habitat fragmentation and degradation", "Combating invasive species"]}, {"category": "Sustainable Consumption", "description": "Making responsible choices as consumers to minimize environmental impact.", "examples": ["Buying products from sustainable sources", "Reducing consumption of resources", "Choosing reusable and durable products", "Supporting businesses that prioritize sustainability"]}, {"category": "Education and Awareness", "description": "Raising awareness about environmental issues and inspiring action.", "examples": ["Teaching children about environmental science and stewardship", "Sharing information about sustainable living and climate change", "Supporting environmental advocacy groups and initiatives"]}, {"category": "Technological Innovation", "description": "Developing and deploying technologies that address environmental challenges.", "examples": ["Advanced energy storage systems", "Carbon capture and storage technologies", "Precision agriculture and sustainable farming techniques", "Biodegradable materials and circular economy models"]}, {"category": "International Cooperation", "description": "Working together globally to address transboundary environmental challenges.", "examples": ["Sharing knowledge and best practices", "Developing international agreements and policies", "Providing financial support to developing countries for environmental protection"]}], "challenges": ["Economic and political barriers to implementing solutions", "Shifting consumer behavior and values", "Addressing environmental justice concerns", "Balancing environmental protection with economic development", "Managing complex and interconnected environmental issues"]}
+Traceback (most recent call last):
+  File "<string>", line 1
+    ```json
+    ^
+SyntaxError: invalid syntax
+import sympy
+x = sympy.Symbol('x')
+solution = sympy.solve(x**2 + 5*x + 6, x)
+print(f'{solution=}')
+Traceback (most recent call last):
+  File "<string>", line 1
+    ```python
+    ^
+SyntaxError: invalid syntax
