@@ -45,3 +45,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
   ...
 })
 export class ProfilePhoto { }
+@Component({
+  selector: 'user-profile',
+  template: `
+    <profile-photo />
+    <button>Upload a new profile photo</button>`,
+  ...,
+})
+export class UserProfile { }
