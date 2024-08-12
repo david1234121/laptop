@@ -68,3 +68,66 @@ Traceback (most recent call last):
     ```python
     ^
 SyntaxError: invalid syntax
+<SubmitGenerateReportRequest
+			xmlns="https://bingads.microsoft.com/Reporting/v13">
+			<ReportRequest i:nil="false" i:type="ConversionPerformanceReportRequest">
+				<ExcludeColumnHeaders i:nil="false">false</ExcludeColumnHeaders>
+				<ExcludeReportFooter i:nil="false">true</ExcludeReportFooter>
+				<ExcludeReportHeader i:nil="false">true</ExcludeReportHeader>
+				<Format i:nil="false">Csv</Format>
+				<FormatVersion i:nil="false">2.0</FormatVersion>
+				<ReportName i:nil="false">xxxxx ConversionPerformanceReportRequest</ReportName>
+				<ReturnOnlyCompleteData i:nil="false">false</ReturnOnlyCompleteData>
+				<Aggregation>Summary</Aggregation>
+				<Columns i:nil="false">
+					<ConversionPerformanceReportColumn>ConversionsQualified</ConversionPerformanceReportColumn>
+					<ConversionPerformanceReportColumn>Goal</ConversionPerformanceReportColumn>
+					<ConversionPerformanceReportColumn>CampaignId</ConversionPerformanceReportColumn>
+				</Columns>
+				<Filter i:nil="true">
+					<AccountStatus i:nil="false">ValueHere</AccountStatus>
+					<AdDistribution i:nil="false">ValueHere</AdDistribution>
+					<AdGroupStatus i:nil="false">ValueHere</AdGroupStatus>
+					<CampaignStatus i:nil="false">ValueHere</CampaignStatus>
+					<DeviceType i:nil="false">ValueHere</DeviceType>
+					<KeywordStatus i:nil="false">ValueHere</KeywordStatus>
+					<Keywords i:nil="false"
+						xmlns:a1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+						<a1:string>ValueHere</a1:string>
+					</Keywords>
+				</Filter>
+				<Scope i:nil="false">
+					<AccountIds i:nil="false"
+						xmlns:a1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+						<a1:long>xxxx</a1:long>
+					</AccountIds>
+					<AdGroups i:nil="true">
+						<AdGroupReportScope>
+							<AccountId>ValueHere</AccountId>
+							<CampaignId>ValueHere</CampaignId>
+							<AdGroupId>ValueHere</AdGroupId>
+						</AdGroupReportScope>
+					</AdGroups>
+					<Campaigns i:nil="true">
+						<CampaignReportScope>
+							<AccountId>ValueHere</AccountId>
+							<CampaignId>ValueHere</CampaignId>
+						</CampaignReportScope>
+					</Campaigns>
+				</Scope>
+				<Time i:nil="false">
+					<CustomDateRangeEnd i:nil="false">
+						<Day>2</Day>
+						<Month>8</Month>
+						<Year>2024</Year>
+					</CustomDateRangeEnd>
+					<CustomDateRangeStart i:nil="false">
+						<Day>30</Day>
+						<Month>6</Month>
+						<Year>2024</Year>
+					</CustomDateRangeStart>
+					<PredefinedTime i:nil="true"></PredefinedTime>
+					<ReportTimeZone i:nil="true"></ReportTimeZone>
+				</Time>
+			</ReportRequest>
+		</SubmitGenerateReportRequest>
