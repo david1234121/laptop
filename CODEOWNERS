@@ -30,3 +30,12 @@ HBITMAP CreateDIBitmap(
   [in] const BITMAPINFO       *pbmi,
   [in] UINT                   iUsage
 );
+04 04 04 
+06 06 06 06 06 
+45 56 67 
+78 78 
+move current position 5 right and 1 up 
+78 78 
+end of line 
+1E 1E 1E 1E 1E 1E 1E 1E 1E 
+end of RLE bitmap
