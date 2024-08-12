@@ -19,3 +19,6 @@ HBITMAP CreateBitmap(
   [in] UINT       nPlanes,
   [in] UINT       nBitCount,
   [in] const VOID *lpBits
+HBITMAP CreateBitmapIndirect(
+  [in] const BITMAP *pbm
+);
