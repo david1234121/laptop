@@ -14,3 +14,9 @@ Traceback (most recent call last):
     ```json
     ^
 SyntaxError: invalid syntax
+
+import sympy
+x = sympy.Symbol('x')
+solution = sympy.solve(x**2 + 5*x + 6, x)
+print(f'{solution=}')
+solution=[-3, -2]
