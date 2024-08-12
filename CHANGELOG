@@ -40,3 +40,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Changed
 
 * [Adds Rosetta 2 in case a macbook has M1 architecture](https://github.com/thoughtbot/laptop/pull/628)
+@Component({
+  selector: 'profile-photo',
+  ...
+})
+export class ProfilePhoto { }
