@@ -1,3 +1,54 @@
+pip install --user firebase-admin
+pip install --user firebase-admin
+default_app = firebase_admin.initialize_app()
+cred = credentials.RefreshToken('path/to/refreshToken.json')
+default_app = firebase_admin.initialize_app(cred)
+export GOOGLE_APPLICATION_CREDENTIALS="/home/user/Downloads/service-account-file.json"
+default_app = firebase_admin.initialize_app()
+# Import the Firebase service
+from firebase_admin import auth
+
+# Initialize the default app
+default_app = firebase_admin.initialize_app(cred)
+print(default_app.name)  # "[DEFAULT]"
+
+# Retrieve services via the auth package...
+# auth.create_custom_token(...)
+# Initialize the default app
+default_app = firebase_admin.initialize_app(cred)
+
+#  Initialize another app with a different config
+other_app = firebase_admin.initialize_app(cred, name='other')
+
+print(default_app.name)    # "[DEFAULT]"
+print(other_app.name)      # "other"
+
+# Retrieve default services via the auth package...
+# auth.create_custom_token(...)
+
+# Use the `app` argument to retrieve the other app's services
+# auth.create_custom_token(..., app=other_app)
+# Check the existing access scopes
+gcloud compute instances describe [INSTANCE_NAME] --format json
+
+# The above command returns the service account information. For example:
+  "serviceAccounts": [
+   {
+    "email": "your.gserviceaccount.com",
+    "scopes": [
+     "https://www.googleapis.com/auth/cloud-platform",
+     "https://www.googleapis.com/auth/userinfo.email"
+     ]
+    }
+  ],
+
+# Stop the VM, then run the following command, using the service account
+# that gcloud returned when you checked the scopes.
+
+gcloud compute instances set-service-account [INSTANCE_NAME] --service-account "your.gserviceaccount.com" --scopes "https://www.googleapis.com/auth/firebase.database,https://www.googleapis.com/auth/userinfo.email"
+gcloud auth application-default login --client-id-file=[/path/to/client/id/file]
+app_options = {'projectId': '<FIREBASE_PROJECT_ID>'}
+default_app = firebase_admin.initialize_app(options=app_options)
 dependencies {
   implementation 'com.google.firebase:firebase-admin:9.3.0'
 }
