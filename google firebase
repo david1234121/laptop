@@ -1,1 +1,4 @@
+dependencies {
+  implementation 'com.google.firebase:firebase-admin:9.3.0'
+}
 https://github.com/googleanalytics/google-tag-manager-ios-sdk.git
